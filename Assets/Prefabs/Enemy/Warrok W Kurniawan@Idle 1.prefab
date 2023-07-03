@@ -2789,7 +2789,7 @@ MonoBehaviour:
   m_player: {fileID: 0}
   m_enemy: {fileID: 9079050210237378800}
   m_rayCastPoint: {fileID: 4964637545623785920}
-  m_maxDistance: 2
+  m_maxDistance: 20
   enemyScript: {fileID: 8824237690730780416}
   m_enemyRaycast: {fileID: 8824237690730780419}
 --- !u!114 &8824237690730780416
@@ -2805,7 +2805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyType: 2
-  m_minDistanceToChase: 2
+  m_minDistanceToChase: 3
   m_target: {fileID: 0}
   m_enemyHead: {fileID: 9079050210237378800}
   m_turningSpeed: 10

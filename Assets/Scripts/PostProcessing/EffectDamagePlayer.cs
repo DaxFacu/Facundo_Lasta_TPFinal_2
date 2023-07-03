@@ -26,7 +26,7 @@ public class EffectDamagePlayer : MonoBehaviour
     }
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+      //  DontDestroyOnLoad(this.gameObject);
     }
 
     // Update is called once per frame

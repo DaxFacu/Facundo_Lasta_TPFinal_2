@@ -38,6 +38,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] EffectDamagePlayer m_lowHealth;
 
+    [SerializeField] GameObject m_resetGame;
+
     private bool m_playerDie = false;
 
     [SerializeField] private Inventory m_inventory;
@@ -59,11 +61,12 @@ public class PlayerController : MonoBehaviour
         healthPlayer = 80;
         attack = false;
         m_distanceRaycast = 0.08f;
+        m_resetGame.SetActive(false);
     }
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+      //  DontDestroyOnLoad(this.gameObject);
         audioData = GetComponent<AudioSource>();
     }
 
@@ -73,21 +76,6 @@ public class PlayerController : MonoBehaviour
         if (m_playerDie == false)
         {
             Rotate(GetRotationInput());
-            /*
-                    // Obtener el movimiento del ratón
-                    float mouseX = Input.GetAxis("Mouse X") * sensitivity;
-                    float mouseY = Input.GetAxis("Mouse Y") * sensitivity;
-
-                    // Rotar el jugador en el eje Y (horizontal)
-                    transform.Rotate(Vector3.up, mouseX);
-
-                    // Rotar la cámara en el eje X (vertical)
-                    rotationX -= mouseY;
-                    rotationX = Mathf.Clamp(rotationX, minYAngle, maxYAngle);
-
-                    // Aplicar la rotación a la cámara
-                   // m_headRotationtransform.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
-            */
 
             if (Input.GetKey(KeyCode.W))
             {
@@ -276,6 +264,7 @@ public class PlayerController : MonoBehaviour
             m_healthSystem.TakeDamage();
             m_lowHealth.EffectLowHealth();
             m_playerDie = true;
+            m_resetGame.SetActive(true);
         }
     }
 
@@ -304,8 +293,8 @@ public class PlayerController : MonoBehaviour
     {
         if (m_isWeaponBlock)
             return;
-        m_isWeaponBlock = true;
-        OnWeaponSelect?.Invoke();
-        Debug.Log($"Bloqueo de armas enviado por {gameObject.name}");
+        //m_isWeaponBlock = true;
+       // OnWeaponSelect?.Invoke();
+       // Debug.Log($"Bloqueo de armas enviado por {gameObject.name}");
     }
 }

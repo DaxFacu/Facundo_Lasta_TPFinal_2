@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &2322581037772044514
 Transform:
@@ -107,12 +107,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5584792201781678601}
+  - component: {fileID: 6114560063897591091}
   m_Layer: 0
   m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &5584792201781678601
 Transform:
@@ -139,6 +140,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6114560063897591091
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6152477387366233246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2322581035899600234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -226,8 +240,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock6B (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!1 &5988268202282837091 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 2322581035899600234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2914049336451662145
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988268202282837091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1487448, y: 1.3747555, z: 3.031098}
+  m_Center: {x: -0.06439746, y: -0.063453496, z: -0.21925852}
 --- !u!4 &7296328285523482224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
@@ -246,10 +284,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: de1b63a7f9bb68a4c89810bfcd9a17c0, type: 2}
+    - target: {fileID: 7007653479277445092, guid: 4745d1d7800129342a1b23f92c31715a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7008384287521584254, guid: 4745d1d7800129342a1b23f92c31715a,
         type: 3}
       propertyPath: m_Name
       value: OldHandTorch (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008384287521584254, guid: 4745d1d7800129342a1b23f92c31715a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7013795465368730450, guid: 4745d1d7800129342a1b23f92c31715a,
         type: 3}
@@ -416,8 +464,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock6B (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!1 &5988268201805002291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 2322581036360658746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7562053773460558284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988268201805002291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1487448, y: 1.3747555, z: 3.031098}
+  m_Center: {x: -0.06415332, y: -0.063453496, z: -0.21924326}
 --- !u!4 &7296328286002234400 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
@@ -511,8 +583,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock6B (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!1 &5988268201805806224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 2322581036361950105}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &10098897943304464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988268201805806224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1487448, y: 1.3747555, z: 3.031098}
+  m_Center: {x: -0.06427539, y: -0.063453496, z: -0.21927378}
 --- !u!4 &7296328286004578435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
@@ -606,8 +702,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock6B (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!1 &5988268201633079540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 2322581036524124669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6377974312372722602
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988268201633079540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1487448, y: 1.3747555, z: 3.031098}
+  m_Center: {x: -0.06439746, y: -0.063453496, z: -0.21925852}
 --- !u!4 &7296328286165897959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
@@ -701,8 +821,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock6B (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!1 &5988268201954968650 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 2322581036778937667}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4949795739176625504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988268201954968650}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1487448, y: 1.3747555, z: 3.031098}
+  m_Center: {x: -0.06439746, y: -0.063453496, z: -0.21927378}
 --- !u!4 &7296328286389270105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
@@ -721,10 +865,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: de1b63a7f9bb68a4c89810bfcd9a17c0, type: 2}
+    - target: {fileID: 7007653479277445092, guid: 4745d1d7800129342a1b23f92c31715a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7008384287521584254, guid: 4745d1d7800129342a1b23f92c31715a,
         type: 3}
       propertyPath: m_Name
       value: OldHandTorch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008384287521584254, guid: 4745d1d7800129342a1b23f92c31715a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7010012312445092194, guid: 4745d1d7800129342a1b23f92c31715a,
         type: 3}
@@ -816,9 +970,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4714555181473870822}
     m_Modifications:
+    - target: {fileID: 1261140543717858, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1340498524264356, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1429175742853808, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1692517446758730, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_Name
       value: Magic fire 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692517446758730, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4166505909902172, guid: 08fd1b80cc24cc8439f45fda3c558255, type: 3}
       propertyPath: m_RootOrder
@@ -985,8 +1155,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock6B (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!1 &5988268200661966046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 2322581037499418071}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3946355203456769996
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988268200661966046}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1487448, y: 1.3747555, z: 3.031098}
+  m_Center: {x: -0.06427539, y: -0.063453496, z: -0.21924326}
 --- !u!4 &7296328287141211853 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
@@ -1080,8 +1274,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock6B (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!1 &5988268200628045590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 2322581037533404703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8406259247265180362
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988268200628045590}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1487448, y: 1.3747555, z: 3.031098}
+  m_Center: {x: -0.06415332, y: -0.063453496, z: -0.21924326}
 --- !u!4 &7296328287174079749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
@@ -1175,8 +1393,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock6B (8)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70, type: 3}
+--- !u!1 &5988268200999562937 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,
+    type: 3}
+  m_PrefabInstance: {fileID: 2322581037702969264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6299685937890193317
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988268200999562937}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.1487448, y: 1.3747555, z: 3.031098}
+  m_Center: {x: -0.06427539, y: -0.063453496, z: -0.21924326}
 --- !u!4 &7296328287344549034 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3b6e1a04dd0ff3f408c43f0eb6cb7f70,

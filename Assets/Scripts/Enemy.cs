@@ -225,7 +225,7 @@ public class Enemy : MonoBehaviour
         {
             enemyDeath = true;
             this.m_animator.SetBool("EnemyDeath", true);
-           GameManager.Instance.DeleteEnemy(this.gameObject);
+          // GameManager.Instance.DeleteEnemy(this.gameObject);
             // audioIsDead.Play(0);
           
         }

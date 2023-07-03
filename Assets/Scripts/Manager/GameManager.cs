@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
       //  var l_gameManager = FindAnyObjectByType<GameManager>();
         if (Instance != null)
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
         else
         {

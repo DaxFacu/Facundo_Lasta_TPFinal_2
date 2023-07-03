@@ -1035,7 +1035,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 442665de27a3b664bafec57e8c38e185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyType: 2
+  enemyType: 0
   m_minDistanceToChase: 2
   m_target: {fileID: 0}
   m_enemyHead: {fileID: 3232547953975173650}
