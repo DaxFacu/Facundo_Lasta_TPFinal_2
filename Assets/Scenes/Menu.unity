@@ -1395,8 +1395,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Eres un desarrollador de videojuegos atrapado en tu propio videojuego.\nEl
     mundo virtual no ser\xE1 amable contigo, por lo que deber\xE1s luchar y escapar.\nLos
-    \"dobles faroles verdes\" te indicar\xE1n los lugares por donde podras irte y
-    volver a tu mundo real."
+    \"dobles faroles verdes\" te indicar\xE1n los lugares por donde podras escapar
+    y volver a tu mundo real."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ac84900d4c24653419287c0954138a91, type: 2}
   m_sharedMaterial: {fileID: 4394245076987404448, guid: ac84900d4c24653419287c0954138a91,
